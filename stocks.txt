@@ -1,12 +1,11 @@
-Apple
-Microsoft
-Alphabet
-Google
-Amazon
-Tesla
-Facebook
-Instagram
-NVIDIA
-Berkshire Hathaway
-JPMorgan
-Visa
+Lennar(LEN)
+Adobe(ADBE)
+Accenture(ACN)
+FedEx(FDX)
+Darden Restaurants(DRI)
+Nike(NKE)
+Micron(MU)
+General Mills(GIS)
+Paychex(PAYX)
+Cintas(CTAS)
+CarMax(KMX)
