@@ -3,4 +3,5 @@ bloomberg.com
 cnbc.com
 thestreet.com
 foxbusiness.com
-wsj.com
+cnn.com
+huffpost.com

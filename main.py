@@ -32,16 +32,16 @@ if args.mode == "MACOS":
 elif args.mode == "M1":
     DRIVER_PATH = '/Users/takumiinui/Desktop/get_news/chromedriver_m1' 
 
-with open(STOCKS_FILE_PATH) as f:
-    STOCKS = f.readlines()
-STOCKS = list(map(lambda x: x[:-1],STOCKS))
+# with open(STOCKS_FILE_PATH) as f:
+#     STOCKS = f.readlines()
+# STOCKS = list(map(lambda x: x[:-1],STOCKS))
         
 with open(NEWS_SITE_FILE_PATH) as f:
     NEWS_SITE = f.readlines()
 NEWS_SITE = list(map(lambda x: x[:-1],NEWS_SITE))
 
-WEBSITE = [" - Reuters", " - Bloomberg", " - CNBC", " - TheStreet", " - Fox Business"," - The Wall Street Journal"]
-WEBSITE_SOURCE = ["Reuters", "Bloomberg", "CNBC", "TheStreet", "FoxBusiness","TheWallStreetJournal"]
+WEBSITE = [" - Reuters", " - Bloomberg", " - CNBC", " - TheStreet", " - Fox Business"," - CNN"," - HuffPost"]
+WEBSITE_SOURCE = ["Reuters", "Bloomberg", "CNBC", "TheStreet", "FoxBusiness","CNN","HuffPost"]
 
 # 時間関係の設定
 NOW = dt.datetime.utcnow() - dt.timedelta(days=1)
@@ -68,11 +68,12 @@ db = firestore.client()
 def main():
     important_articles = get_google_news_xml(query="", date=LIMIT_DATE, limit=3)
     print("latest sucessed")
-    time.sleep(10)
+    time.sleep(5)
     
     website_articles = []
     for i,j,k in zip(NEWS_SITE,WEBSITE,WEBSITE_SOURCE):
         website_articles.append(get_google_news_xml_from_one_website(query="", date=FREE_DATE, newssite=i,website=j,website2=k,limit=10))
+        time.sleep(5)
     print("website sucessed")
     
     regist_firebase(articles=important_articles, database="importants")
