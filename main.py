@@ -14,9 +14,23 @@ from bs4 import BeautifulSoup
 import time
 import urllib.parse
 import os
+from newspaper import Article
+import argparse
+
+parser = argparse.ArgumentParser(description='GET NEWS DATA AND RESIST THE NEWS')
+parser.add_argument('-m', "--mode", type=str, default='MACOS',
+                    help="select the envs" )
+
+args = parser.parse_args()
 
 STOCKS_FILE_PATH = "/Users/takumiinui/Desktop/get_news/stocks.txt"
 NEWS_SITE_FILE_PATH = "/Users/takumiinui/Desktop/get_news/news_site.txt"
+
+
+if args.mode == "MACOS":
+    DRIVER_PATH = '/Users/takumiinui/Desktop/get_news/chromedriver'
+elif args.mode == "M1":
+    DRIVER_PATH = '/Users/takumiinui/Desktop/get_news/chromedriver_m1' 
 
 with open(STOCKS_FILE_PATH) as f:
     STOCKS = f.readlines()
@@ -26,8 +40,8 @@ with open(NEWS_SITE_FILE_PATH) as f:
     NEWS_SITE = f.readlines()
 NEWS_SITE = list(map(lambda x: x[:-1],NEWS_SITE))
 
-WEBSITE = [" - Reuters", " - Bloomberg", " - CNBC", " - TheStreet", " - Fox Business"," - The Wall Street Journal"," - Forbes"," - Business Insider", " - Motley Fool"]
-WEBSITE_SOURCE = ["Reuters", "Bloomberg", "CNBC", "TheStreet", "FoxBusiness","TheWallStreetJournal","Forbes","BusinessInsider", "MotleyFool"]
+WEBSITE = [" - Reuters", " - Bloomberg", " - CNBC", " - TheStreet", " - Fox Business"," - The Wall Street Journal"]
+WEBSITE_SOURCE = ["Reuters", "Bloomberg", "CNBC", "TheStreet", "FoxBusiness","TheWallStreetJournal"]
 
 # 時間関係の設定
 NOW = dt.datetime.utcnow() - dt.timedelta(days=1)
@@ -58,26 +72,15 @@ def main():
     
     website_articles = []
     for i,j,k in zip(NEWS_SITE,WEBSITE,WEBSITE_SOURCE):
-        website_articles.append(get_google_news_xml_from_one_website(query=i, date=FREE_DATE, newssite=i,website=j,website2=k,limit=5))
-        time.sleep(10)
+        website_articles.append(get_google_news_xml_from_one_website(query="", date=FREE_DATE, newssite=i,website=j,website2=k,limit=10))
     print("website sucessed")
-    
-    stocks_articles = []
-    for i in STOCKS:
-        stocks_articles += get_google_news_xml(query=i, date=FREE_DATE, limit=1)
-        time.sleep(10)
-    print("earings sucessed")
     
     regist_firebase(articles=important_articles, database="importants")
     print("latest sucessed")
     
     for i, j in zip(website_articles, WEBSITE_SOURCE):
         regist_firebase(articles=i, database=j)
-    print("earnings sucessed")
-    
-    regist_firebase(articles=stocks_articles, database="earnings")
-    
-    print("earings sucessed")
+    print("website sucessed")
     print("Completed")
     print(NOW)
     
@@ -122,10 +125,15 @@ def get_google_news_xml(query, date, limit):
         article = article["title"].replace("/","")
         article = article.replace("|","")
         titles += (article+"\n")
+        
     japanese_title = list(get_translated_text(from_lang, to_lang, titles).split("\n"))
     try:
         for i in range(len(articles)):
             articles[i]["japanese_title"] = japanese_title[i]
+            article_data = Article(articles[i]["link"])
+            article_data.download()
+            article_data.parse()
+            articles[i]["top_image"] = article_data.top_image
     except Exception as e:
         with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
             f.write("titles:  ", titles)
@@ -162,6 +170,10 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
     try:
         for i in range(len(articles)):
             articles[i]["japanese_title"] = japanese_title[i]
+            article_data = Article(articles[i]["link"])
+            article_data.download()
+            article_data.parse()
+            articles[i]["top_image"] = article_data.top_image
     except Exception as e:
         with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
             f.write("titles:  ", titles)
@@ -177,11 +189,12 @@ def regist_firebase(articles, database):
     for article in articles:
         title = article["title"]
         hash_val = hashlib.sha224(title.encode()).hexdigest()
-        with open("/Users/takumiinui/Desktop/get_news/articles/" + database + "/articles.txt", "r") as f:
+        with open("/Users/takumiinui/Desktop/get_news/articles/" + database + ".txt", "r") as f:
             x = f.read()
         hash_li = list(x.split("\n"))[:-1]
+        # if True:
         if hash_val not in hash_li:
-            with open("/Users/takumiinui/Desktop/get_news/articles/" + database + "/articles.txt", "a", newline="") as f:
+            with open("/Users/takumiinui/Desktop/get_news/articles/" + database + ".txt", "a", newline="") as f:
                 f.write(hash_val+"\n")
             doc_ref = db.collection(database).document()
             doc_ref.set({
@@ -190,6 +203,7 @@ def regist_firebase(articles, database):
                 u"link": article["link"],
                 u"source": article["source"],
                 u"title_ja": article["japanese_title"], 
+                u"top_image": article["top_image"], 
             })
     
 def get_translated_text(from_lang, to_lang, from_text):
@@ -205,7 +219,7 @@ def get_translated_text(from_lang, to_lang, from_text):
     options.add_argument('--headless')
      
     # ブラウザーを起動
-    driver = webdriver.Chrome('/Users/takumiinui/Desktop/get_news/chromedriver', options=options)
+    driver = webdriver.Chrome(DRIVER_PATH, options=options)
     driver.get(url)
     driver.implicitly_wait(30)  # 見つからないときは、30秒まで待つ
  
@@ -220,7 +234,6 @@ def get_translated_text(from_lang, to_lang, from_text):
      
         if to_text:
             wait_time =  sleep_time * try_count
-            # print(str(wait_time) + "秒")
              
             # アクセス修了
             break
@@ -236,6 +249,5 @@ def get_text_from_page_source(html):
     text = target_elem.text
      
     return text
-    
 
 main()

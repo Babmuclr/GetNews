@@ -4,6 +4,3 @@ cnbc.com
 thestreet.com
 foxbusiness.com
 wsj.com
-forbes.com
-businessinsider.com
-fool.com
