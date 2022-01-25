@@ -152,7 +152,7 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
         
     for item in items:
         title = item.find("title").getText()
-        title = str(title.replace(website_name,""))
+        title = str(title.replace(website,""))
         link = item.find("link").getText()
         guid = item.find("guid").getText()
         pubdate = dt.datetime.strptime(item.find("pubDate").getText(), '%a, %d %b %Y %H:%M:%S %Z')
@@ -172,13 +172,12 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
             {
                 "title": title,
                 "pubDate": pubdate,
-                "source": website_name_2,
+                "source": website2,
                 "link": link,
                 "top_image": top_image,
                 "guid": guid,
             }
         )
-    
     titles = ""
     for article in articles:
         article = article["title"].replace("/","")

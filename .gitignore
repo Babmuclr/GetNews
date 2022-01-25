@@ -1,3 +1,4 @@
 UserData/
 .ipynb_checkpoints/
 serviceAccountKey.json
+./articles/*.txts
