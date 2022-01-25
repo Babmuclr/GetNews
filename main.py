@@ -92,31 +92,33 @@ def get_google_news_xml(query, date, limit):
             items = items[:limit]
             
         for item in items:
+            title = item.find("title").getText()
+            title = str(title.replace(website_name,""))
+            link = item.find("link").getText()
+            guid = item.find("guid").getText()
+            pubdate = dt.datetime.strptime(item.find("pubDate").getText(), '%a, %d %b %Y %H:%M:%S %Z')
             try:
-                title = item.find("title").getText()
-                title = str(title.replace(website_name,""))
-                link = item.find("link").getText()
-                guid = item.find("guid").getText()
-                pubdate = dt.datetime.strptime(item.find("pubDate").getText(), '%a, %d %b %Y %H:%M:%S %Z')
                 article_data = Article(link)
                 article_data.download()
                 article_data.parse()
-                articles.append(
-                    {
-                        "title": title,
-                        "pubDate": pubdate,
-                        "source": website_name_2,
-                        "link": link,
-                        "top_image": article_data.top_image,
-                        "guid": guid,
-                    }
-                )
+                top_image = article_data.top_image
             except Exception as e:
+                top_image = ""
                 with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
                     f.write ('=== エラー内容 ==='+ "\n")
                     f.write ('type:' + str(type(e)) + "\n")
                     f.write ('args:' + str(e.args) + "\n")
                     f.write ('e自身:' + str(e) + "\n")
+            articles.append(
+                {
+                    "title": title,
+                    "pubDate": pubdate,
+                    "source": website_name_2,
+                    "link": link,
+                    "top_image": top_image,
+                    "guid": guid,
+                }
+            )
                     
     titles = ""
     for article in articles:
@@ -149,31 +151,34 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
         items = items[:limit]
         
     for item in items:
+        title = item.find("title").getText()
+        title = str(title.replace(website_name,""))
+        link = item.find("link").getText()
+        guid = item.find("guid").getText()
+        pubdate = dt.datetime.strptime(item.find("pubDate").getText(), '%a, %d %b %Y %H:%M:%S %Z')
         try:
-            title = item.find("title").getText()
-            title = str(title.replace(website,""))
-            link = item.find("link").getText()
-            guid = item.find("guid").getText()
-            pubdate = dt.datetime.strptime(item.find("pubDate").getText(), '%a, %d %b %Y %H:%M:%S %Z')
             article_data = Article(link)
             article_data.download()
             article_data.parse()
-            articles.append(
-                {
-                    "title": title,
-                    "pubDate": pubdate,
-                    "source": website2,
-                    "link": link,
-                    "top_image": article_data.top_image,
-                    "guid": guid,
-                }
-            )
+            top_image = article_data.top_image
         except Exception as e:
+            top_image = ""
             with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
                 f.write ('=== エラー内容 ==='+ "\n")
                 f.write ('type:' + str(type(e)) + "\n")
                 f.write ('args:' + str(e.args) + "\n")
                 f.write ('e自身:' + str(e) + "\n")
+        articles.append(
+            {
+                "title": title,
+                "pubDate": pubdate,
+                "source": website_name_2,
+                "link": link,
+                "top_image": top_image,
+                "guid": guid,
+            }
+        )
+    
     titles = ""
     for article in articles:
         article = article["title"].replace("/","")

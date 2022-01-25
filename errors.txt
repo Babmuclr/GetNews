@@ -1,0 +1,24 @@
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:('Article `download()` failed with 404 Client Error: Not Found for url: https://www.foxbusiness.com/markets/us-stocks-higher-in-early-trading-as-companies-set-to-release-fourth-quarter-earnings on URL https://www.foxbusiness.com/markets/us-stocks-higher-in-early-trading-as-companies-set-to-release-fourth-quarter-earnings',)
+e自身:Article `download()` failed with 404 Client Error: Not Found for url: https://www.foxbusiness.com/markets/us-stocks-higher-in-early-trading-as-companies-set-to-release-fourth-quarter-earnings on URL https://www.foxbusiness.com/markets/us-stocks-higher-in-early-trading-as-companies-set-to-release-fourth-quarter-earnings
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/retail/activist-investor-blackwells-capital-pushes-peloton-to-fire-ceo",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/retail/activist-investor-blackwells-capital-pushes-peloton-to-fire-ceo
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/delta-passenger-charged-refusing-mask-mooning-passengers",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/delta-passenger-charged-refusing-mask-mooning-passengers
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/u-s-food-supply-is-under-pressure-from-plants-to-store-shelves",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/u-s-food-supply-is-under-pressure-from-plants-to-store-shelves
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/bmw-south-carolina-production-record-2021",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/bmw-south-carolina-production-record-2021
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/disgraced-lawyer-michael-avenatti-trial-opening-arguments",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/disgraced-lawyer-michael-avenatti-trial-opening-arguments
