@@ -75,10 +75,19 @@ def main():
 def get_items(query="Apple", date="2021-1-1", homepage="reuters.com"):
     query = urllib.parse.quote(query)
     url = "https://news.google.com/rss/search?q=" + query +  "+after:" + date + "+inurl:" + homepage + "&hl=en-US&gl=US&ceid=US:en"
-    response = request.urlopen(url)
-    soup = BeautifulSoup(response,"xml")
-    response.close()
-    elems = soup.find_all("item")
+    try:
+        response = request.urlopen(url)
+        soup = BeautifulSoup(response,"xml")
+        response.close()
+        elems = soup.find_all("item")
+    except Exception as e:
+        elems=[]
+        with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
+            f.write ('=== エラー内容 ==='+ "\n")
+            f.write ('type:' + str(type(e)) + "\n")
+            f.write ('args:' + str(e.args) + "\n")
+            f.write ('e自身:' + str(e) + "\n")
+            f.write ('url:' + str(url) + "\n")
     return elems
 
 # https://news.google.com/rssに出力される記事の一覧を手に入れる
@@ -87,7 +96,7 @@ def get_google_news_xml(query, date, limit):
     for news_site, website_name, website_name_2 in zip(NEWS_SITE, WEBSITE, WEBSITE_SOURCE):
         items = get_items(query=query, date=date, homepage=news_site)
         if items == []:
-            return 0
+            continue
         elif len(items) > limit:
             items = items[:limit]
             
@@ -146,7 +155,7 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
     
     items = get_items(query=query, date=date, homepage=newssite)
     if items == []:
-        return 0
+        return []
     elif len(items) > limit:
         items = items[:limit]
         

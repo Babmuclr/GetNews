@@ -22,3 +22,310 @@ e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusine
 type:<class 'newspaper.article.ArticleException'>
 args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/disgraced-lawyer-michael-avenatti-trial-opening-arguments",)
 e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/disgraced-lawyer-michael-avenatti-trial-opening-arguments
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/sports/wynn-resorts-looks-to-sell-online-sports-betting-biz-at-deep-discount-source",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/sports/wynn-resorts-looks-to-sell-online-sports-betting-biz-at-deep-discount-source
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/crypto-prices-mixed-after-us-markets-see-saw-on-monday",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/crypto-prices-mixed-after-us-markets-see-saw-on-monday
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/trump-truth-social-developing-content-moderation-practices-to-ensure-family-friendly-community",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/trump-truth-social-developing-content-moderation-practices-to-ensure-family-friendly-community
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/nj-restaurants-go-viral-for-threatening-workers-with-5-star-review-policy",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/nj-restaurants-go-viral-for-threatening-workers-with-5-star-review-policy
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/stock-futures-netflix-peloton-oil",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/stock-futures-netflix-peloton-oil
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/business/energy/rio-tinto-mongolia-settle-long-running-dispute-over-oyu-tolgoi-copper-mine-2022-01-24/",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/business/energy/rio-tinto-mongolia-settle-long-running-dispute-over-oyu-tolgoi-copper-mine-2022-01-24/
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/crypto-prices-mixed-after-us-markets-see-saw-on-monday",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/crypto-prices-mixed-after-us-markets-see-saw-on-monday
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/minneapolis-restaurants-sue-mayor-over-vaccine-mandates",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/minneapolis-restaurants-sue-mayor-over-vaccine-mandates
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/small-business/connecticut-man-accused-of-berating-smoothie-shop-staff-calling-worker-an-immigrant-loser",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/small-business/connecticut-man-accused-of-berating-smoothie-shop-staff-calling-worker-an-immigrant-loser
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-january-25-2022",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/personal-finance/todays-mortgage-rates-january-25-2022
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/money/irs-2022-tax-season-get-your-refund-faster",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/money/irs-2022-tax-season-get-your-refund-faster
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/elon-musk-tesla-earnings",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/elon-musk-tesla-earnings
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-13+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/elon-musk-tesla-earnings",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/elon-musk-tesla-earnings
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/spotify-silent-neil-young-reportedly-threatens-pull-songs-joe-rogan-experience",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/spotify-silent-neil-young-reportedly-threatens-pull-songs-joe-rogan-experience
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/technology/micron-shut-dram-chip-design-operations-shanghai-scmp-2022-01-26/",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/technology/micron-shut-dram-chip-design-operations-shanghai-scmp-2022-01-26/
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/ballys-rebranding-as-horseshoe-las-vegas",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/ballys-rebranding-as-horseshoe-las-vegas
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-25+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/big-game-dancers-halftime-show-volunteer",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/big-game-dancers-halftime-show-volunteer
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
