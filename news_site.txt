@@ -1,7 +1,7 @@
 reuters.com
-bloomberg.com
 cnbc.com
 thestreet.com
 foxbusiness.com
 cnn.com
 huffpost.com
+bloomberg.com

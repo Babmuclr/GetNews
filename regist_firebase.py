@@ -10,7 +10,7 @@ def regist_firebase(db, articles, database):
             x = f.read()
         hash_li = list(x.split("\n"))[:-1]
         # if True:
-        if (hash_val1 not in hash_li) or (hash_val2 not in hash_li) or (hash_val3 not in hash_li):
+        if (hash_val1 not in hash_li) and (hash_val2 not in hash_li) and (hash_val3 not in hash_li):
             with open("/Users/takumiinui/Desktop/get_news/articles/" + database + ".txt", "a", newline="") as f:
                 f.write(hash_val1+"\n")
                 f.write(hash_val2+"\n")

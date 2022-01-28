@@ -1,4 +1,5 @@
 UserData/
 .ipynb_checkpoints/
 serviceAccountKey.json
-./articles/*.txt
+articles/*
+twitterpass.txt
