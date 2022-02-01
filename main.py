@@ -19,9 +19,6 @@ import argparse
 import translate
 import regist_firebase
 
-import random
-import twitter
-
 parser = argparse.ArgumentParser(description='GET NEWS DATA AND RESIST THE NEWS')
 parser.add_argument('-m', "--mode", type=str, default='MACOS',
                     help="select the envs" )

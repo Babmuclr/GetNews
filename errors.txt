@@ -387,3 +387,633 @@ type:<class 'urllib.error.HTTPError'>
 args:()
 e自身:HTTP Error 404: Not Found
 url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/bitcoin-1-28-2022",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/bitcoin-1-28-2022
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/amazon-labor-board-election-new-york",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/amazon-labor-board-election-new-york
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/red-hot-inflation-millions-americans-financial-pain",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/red-hot-inflation-millions-americans-financial-pain
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/port-of-savannah-hits-container-record-amid-continued-supply-chain-disruptions",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/economy/port-of-savannah-hits-container-record-amid-continued-supply-chain-disruptions
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/dry-january-hurt-bars-alcohol-retail-execs-speak-out",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/dry-january-hurt-bars-alcohol-retail-execs-speak-out
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/billionaire-george-soros-125m-help-democrats-midterms",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/billionaire-george-soros-125m-help-democrats-midterms
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/atlanta-starbucks-files-union",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/atlanta-starbucks-files-union
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/tgi-fridays-free-apps-delivery-drivers-thanks",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/tgi-fridays-free-apps-delivery-drivers-thanks
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-26+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/world/india/google-invest-up-1-bln-indias-bharti-airtel-2022-01-28/",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.reuters.com', port=443): Read timed out. (read timeout=7) on URL https://www.reuters.com/world/india/google-invest-up-1-bln-indias-bharti-airtel-2022-01-28/
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-15+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-16+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/chevron-ceo-100-per-barrel-oil-possible",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/chevron-ceo-100-per-barrel-oil-possible
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/dry-january-hurt-bars-alcohol-retail-execs-speak-out",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/lifestyle/dry-january-hurt-bars-alcohol-retail-execs-speak-out
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/entertainment/bruce-springsteen-guitarist-nils-lofgren-joins-neil-young-joni-mitchell-in-removing-music-from-spotify",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/entertainment/bruce-springsteen-guitarist-nils-lofgren-joins-neil-young-joni-mitchell-in-removing-music-from-spotify
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/chevron-ceo-100-per-barrel-oil-possible",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/markets/chevron-ceo-100-per-barrel-oil-possible
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/gym-owners-who-defied-nj-covid-regulation-sentenced-to-one-year-of-probation",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='www.foxbusiness.com', port=443): Read timed out. (read timeout=7) on URL https://www.foxbusiness.com/politics/gym-owners-who-defied-nj-covid-regulation-sentenced-to-one-year-of-probation
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'newspaper.article.ArticleException'>
+args:("Article `download()` failed with HTTPSConnectionPool(host='edition.cnn.com', port=443): Read timed out. (read timeout=7) on URL https://www.cnn.com/2022/01/30/politics/trump-rally-texas/index.html",)
+e自身:Article `download()` failed with HTTPSConnectionPool(host='edition.cnn.com', port=443): Read timed out. (read timeout=7) on URL https://www.cnn.com/2022/01/30/politics/trump-rally-texas/index.html
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en
+=== エラー内容 ===
+type:<class 'urllib.error.HTTPError'>
+args:()
+e自身:HTTP Error 404: Not Found
+url:https://news.google.com/rss/search?q=+after:2022-1-17+inurl:huffpost.com&hl=en-US&gl=US&ceid=US:en

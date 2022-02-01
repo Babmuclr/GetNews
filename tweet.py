@@ -39,6 +39,7 @@ WEBSITE_SOURCE = ["Reuters", "CNBC", "TheStreet", "FoxBusiness","CNN","HuffPost"
 
 # 時間関係の設定
 NOW = dt.datetime.utcnow() - dt.timedelta(days=2)
+TWEET_DAY = dt.datetime.utcnow() - dt.timedelta(weeks=1)
 FREE_DAY = dt.datetime.utcnow() - dt.timedelta(weeks=2)
 YEAR, MONTH, DAY = NOW.year, NOW.month, NOW.day
 LIMIT_DATE = str(YEAR) + "-" + str(MONTH) + "-" + str(DAY)
@@ -134,10 +135,12 @@ def tweet_news():
         token_secret=s[3]
     
     num = NOW.hour % (4)
-    one_article = get_google_news_xml_from_one_website(
+    one_articles = get_google_news_xml_from_one_website(
         query="",date=LIMIT_DATE,newssite=NEWS_SITE[num], 
-        website=WEBSITE[num], website2=WEBSITE_SOURCE[num], limit=5)
-    one_article = one_article[random.randint(0, 4)]
+        website=WEBSITE[num], website2=WEBSITE_SOURCE[num], limit=10)
+    
+    one_article = one_articles[random.randint(0, 9)]
+    
     api = twitter.Api(
         consumer_key=consumer_key,
         consumer_secret=consumer_secret,
