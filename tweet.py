@@ -34,8 +34,8 @@ with open(NEWS_SITE_FILE_PATH) as f:
 
 # ニュースサイトのリスト
 NEWS_SITE = list(map(lambda x: x[:-1],NEWS_SITE))
-WEBSITE = [" - Reuters", " - CNBC", " - TheStreet", " - Fox Business"," - CNN"," - HuffPost"," - Bloomberg",]
-WEBSITE_SOURCE = ["Reuters", "CNBC", "TheStreet", "FoxBusiness","CNN","HuffPost","Bloomberg",]
+WEBSITE = [" - Reuters", " - CNBC", " - TheStreet", " - Fox Business"," - The Washington Post"," - Business Insider"," - CNN"," - HuffPost"," - Bloomberg"," - Motley Fool"]
+WEBSITE_SOURCE = ["Reuters", "CNBC", "TheStreet", "FoxBusiness", "WashingtonPost","BusinessInsider","CNN","HuffPost","Bloomberg", "MotleyFool"]
 
 # 時間関係の設定
 NOW = dt.datetime.utcnow() - dt.timedelta(days=2)
@@ -89,6 +89,7 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
             article_data.download()
             article_data.parse()
             top_image = article_data.top_image
+            # summary = article_data.summary
         except Exception as e:
             top_image = ""
             with open("/Users/takumiinui/Desktop/get_news/errors.txt", "a") as f: 
@@ -104,6 +105,7 @@ def get_google_news_xml_from_one_website(query, date, newssite, website, website
                 "link": link,
                 "top_image": top_image,
                 "guid": guid,
+                # "summary": summary,
             }
         )
     titles = ""
@@ -134,12 +136,13 @@ def tweet_news():
         token=s[2][:-1]
         token_secret=s[3]
     
-    num = NOW.hour % (4)
+    num = NOW.hour % (6)
     one_articles = get_google_news_xml_from_one_website(
         query="",date=LIMIT_DATE,newssite=NEWS_SITE[num], 
         website=WEBSITE[num], website2=WEBSITE_SOURCE[num], limit=10)
     
     one_article = one_articles[random.randint(0, 9)]
+    print(one_article)
     
     api = twitter.Api(
         consumer_key=consumer_key,
@@ -153,5 +156,4 @@ def tweet_news():
         one_article["japanese_title"]+"\n"+one_article["link"]+"\nニュース一覧はこちら👇\nhttps://www.babmuclr.com",
         media=one_article["top_image"],
     )
-
 main()

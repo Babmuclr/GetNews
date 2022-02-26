@@ -2,6 +2,9 @@ reuters.com
 cnbc.com
 thestreet.com
 foxbusiness.com
+washingtonpost.com
+businessinsider.com
 cnn.com
 huffpost.com
 bloomberg.com
+fool.com

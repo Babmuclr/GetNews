@@ -36,8 +36,8 @@ with open(NEWS_SITE_FILE_PATH) as f:
 
 # ニュースサイトのリスト
 NEWS_SITE = list(map(lambda x: x[:-1],NEWS_SITE))
-WEBSITE = [" - Reuters", " - CNBC", " - TheStreet", " - Fox Business"," - CNN"," - HuffPost"," - Bloomberg",]
-WEBSITE_SOURCE = ["Reuters", "CNBC", "TheStreet", "FoxBusiness","CNN","HuffPost","Bloomberg",]
+WEBSITE = [" - Reuters", " - CNBC", " - TheStreet", " - Fox Business"," - The Washington Post"," - Business Insider"," - CNN"," - HuffPost"," - Bloomberg"," - Motley Fool"]
+WEBSITE_SOURCE = ["Reuters", "CNBC", "TheStreet", "FoxBusiness", "WashingtonPost","BusinessInsider","CNN","HuffPost","Bloomberg", "MotleyFool"]
 
 # 時間関係の設定
 NOW = dt.datetime.utcnow() - dt.timedelta(days=2)
