@@ -28,17 +28,19 @@ def get_translated_text(from_text, DRIVER_PATH):
  
     for i in range(try_max_count):     
         # 指定時間待つ
-        time.sleep(sleep_time)  
-        html = driver.page_source
-        to_text = get_text_from_page_source(html) 
-        try_count = i + 1
-        if to_text:
-            wait_time =  sleep_time * try_count
-            # アクセス修了
-            break
-    # ブラウザ停止
+        try:
+            time.sleep(sleep_time)  
+            html = driver.page_source
+            to_text = get_text_from_page_source(html) 
+            try_count = i + 1
+            if to_text:
+                # アクセス修了
+                driver.quit()
+                return to_text
+        except Exception as e:
+            print(e)
     driver.quit()
-    return to_text
+    return ""
 
 def get_text_from_page_source(html):
     soup = BeautifulSoup(html, features='lxml')
